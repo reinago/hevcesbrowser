@@ -3,6 +3,7 @@
 
 
 #include "Hevc.h"
+#include <string>
 
 
 class ConvToString

@@ -1,0 +1,7 @@
+{
+  "name": "hevcesbrowser_console",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "boost-program-options"
+  ]
+}

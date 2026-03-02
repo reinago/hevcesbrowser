@@ -92,7 +92,7 @@ void HEVCInfoWriter::write(std::ostream &out)
 
 void HEVCInfoWriter::writeNALHeader(const NALUInfo& naluInfo, std::ostream &out)
 {
-  out << std::hex << "0x" << naluInfo.m_info.m_position << std::dec << ": ";
+  out << std::hex << "0x" << naluInfo.m_info.m_position << std::dec << " (" << naluInfo.m_info.m_position << "): ";
   out << ConvToString::NALUnitType(naluInfo.m_pNALUnit -> m_nalHeader.type) << std::endl;
 }
 
